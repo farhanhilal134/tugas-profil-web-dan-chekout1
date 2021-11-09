@@ -1,0 +1,63 @@
+header {
+    background-color: gainsboro;
+}
+body {
+    max-width: 700px;
+    border: 1px solid black;
+    margin: auto;
+}
+nav{ 
+    display: flex;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+}
+.logo {
+    margin-left: auto;
+    padding-right: 20px;
+    display: flex;
+}
+table{
+    display: flex;
+    width: 100%;
+}
+.ceklis {
+    width: 60px;
+    height: 60px;
+    padding-top: 30px;
+    padding-left: 20px;
+    display: flex;
+}
+.container {
+    display: flex;
+}
+.dua{
+    border-bottom: 1px solid black;
+}
+
+aside{
+    background-color: grey;
+    width: 50%;
+    height: 70%;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-top: 6%;   
+}footer {
+    margin-top: 7%; 
+    border-top: 1px solid black; 
+    padding: 10px; 
+    display: grid; 
+    gap: 10px; 
+}
+
+.footer div {
+    display: flex;
+    gap: 5px;
+}
+
+.footer div a {
+    margin-right: 10px;
+}
+
